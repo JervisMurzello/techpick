@@ -52,10 +52,6 @@ Every product listed is carefully selected and linked with an affiliate tag. Whe
 1. Sign in to your [Amazon Associates account](https://affiliate-program.amazon.in/)
 2. Go to **Account Settings** → **Manage Your Websites and Mobile Apps**
 3. Click **Add a Website or Mobile App**
-4. Enter your GitHub Pages URL: `https://YOUR-USERNAME.github.io/techpick`
-5. Describe your site as: *"A curated tech deals and product review website linking to Amazon India products across categories including smartphones, laptops, ACs, tablets, and home appliances."*
-6. Click **Save**
-
 ---
 
 ## Affiliate Disclosure
