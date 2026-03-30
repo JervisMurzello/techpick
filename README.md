@@ -6,9 +6,7 @@
 
 ## Live Website
 
-🌐 **[https://YOUR-USERNAME.github.io/techpick](https://YOUR-USERNAME.github.io/techpick)**
-
-> Replace the link above with your actual GitHub Pages URL after deployment.
+🌐 **[[(https://jervismurzello.github.io/techpick/)]]**
 
 ---
 
@@ -48,70 +46,6 @@ Every product listed is carefully selected and linked with an affiliate tag. Whe
 
 ---
 
-## How to Deploy (GitHub Pages)
-
-### Step 1 — Create a Repository
-1. Go to [github.com](https://github.com) and log in
-2. Click **"+"** → **"New repository"**
-3. Name it `techpick`, set it to **Public**, check **"Add a README file"**
-4. Click **"Create repository"**
-
-### Step 2 — Upload the Website File
-1. Rename `techdeals-affiliate.html` to **`index.html`**
-2. In your repo, click **"Add file"** → **"Upload files"**
-3. Drag and drop `index.html`
-4. Click **"Commit changes"**
-
-### Step 3 — Enable GitHub Pages
-1. Go to **Settings** → **Pages** (left sidebar)
-2. Under **Branch**, select `main` → folder `/ (root)`
-3. Click **Save**
-4. Wait 1–2 minutes — your live URL will appear as:
-   `https://YOUR-USERNAME.github.io/techpick`
-
----
-
-## How to Add Your Affiliate Links
-
-All product links use Amazon short URLs in the format `https://amzn.to/XXXXXXX`.
-
-To update a link:
-1. Open `index.html` in any text editor (Notepad, VS Code, etc.)
-2. Find the product by its name using **Ctrl+F**
-3. Replace the `href="https://amzn.to/..."` value with your new affiliate link
-4. Save and re-upload to GitHub
-
----
-
-## How to Add New Products
-
-To add a new product card, copy this template and paste it inside the `<div class="products-grid">` section in `index.html`:
-
-```html
-<div class="product-card" data-cat="CATEGORY">
-  <div class="product-img">EMOJI</div>
-  <div class="product-badge badge-best">Best Seller</div>
-  <div class="product-body">
-    <div class="product-category">CATEGORY LABEL</div>
-    <div class="product-name">PRODUCT NAME</div>
-    <div class="product-desc">Key features here · Short and punchy</div>
-    <div class="product-rating">
-      <span class="stars">★★★★★</span>
-      <span class="rating-num">4.8</span>
-    </div>
-    <div class="product-footer">
-      <div class="price-new">View Price</div>
-      <a href="YOUR-AFFILIATE-LINK" target="_blank" rel="noopener" class="buy-btn">Buy on Amazon →</a>
-    </div>
-  </div>
-</div>
-```
-
-**Category values for `data-cat`:** `mobile`, `laptop`, `ac`, `tablet`, `home`, `storage`
-
-**Badge classes:** `badge-best` (yellow), `badge-blue` (blue), `badge-purple` (purple), `badge-sky` (sky blue), `badge-amber` (amber)
-
----
 
 ## Registering with Amazon Associates
 
